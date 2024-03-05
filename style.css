@@ -1,0 +1,107 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-style: outset;
+}
+
+#logo{
+    width: 10%;
+    height: 5%;
+}
+nav ul{
+    justify-content: left;
+    list-style: none;
+    display: flex;
+    margin-right: 0%;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 100px;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    margin-top: 18px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 60px;
+}
+
+li a.active, li a:hover{
+    background-color: rgb(208, 208, 208);
+    transition: .5s;
+}
+
+body{
+    margin-top: 100px;
+    font-family: "Mallanna", sans-serif;
+    font-size: 30px;
+    background-color: white;
+    padding: 20px;
+}
+
+body img{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 80%;
+    margin-bottom: 10px;
+}
+
+body h1{
+    margin-top: 45px;
+    font-size: 30px;
+    font-family: "Kalnia", serif;
+    justify-content: center;
+}
+body h2{
+    font-family: "Kalnia", serif; 
+}
+body h3{
+    font-family: "Kalnia", serif; 
+}
+
+    
+#nosotros iframe{
+padding: 10px;
+margin: 10px;
+}
+
+footer h3{
+    display: flex;
+    font-size: 20px;
+    margin: 10px;
+    justify-content: center;
+}
+footer p{
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+footer form{
+    display: flex;
+    font-size: 18px;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 5px;
+    border-style: none;
+}
